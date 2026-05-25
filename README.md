@@ -2,6 +2,8 @@
 
 A graphical application that displays an animated sine wave.
 
+![screenshot](screenshot.png)
+
 ## Running
 
 ```bash
