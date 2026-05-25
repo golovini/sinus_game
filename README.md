@@ -1,25 +1,25 @@
-# Біжуча синусоїда
+# Running Sinusoid
 
-Графічна програма, що відображає анімовану синусоїду у вікні.
+A graphical application that displays an animated sine wave.
 
-## Запуск
+## Running
 
 ```bash
 pip install pygame
 python3 sinus_game.py
 ```
 
-## Управління
+## Controls
 
-| Клавіша | Дія |
-|---------|-----|
-| `↑` / `↓` | Збільшити / зменшити амплітуду |
-| `←` / `→` | Звузити / розширити (змінити частоту) |
-| `c` | Прискорити |
-| `z` | Сповільнити (при достатній кількості натискань — рух у зворотньому напрямку) |
-| `q` | Вийти |
+| Key | Action |
+|-----|--------|
+| `↑` / `↓` | Increase / decrease amplitude |
+| `←` / `→` | Narrow / widen (change frequency) |
+| `c` | Speed up |
+| `z` | Slow down (keep pressing to reverse direction) |
+| `q` | Quit |
 
-## Залежності
+## Requirements
 
 - Python 3
 - pygame 2.x
